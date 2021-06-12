@@ -3,7 +3,7 @@ var page = 0
 var book = []
 var answerChoices = []
 var correctChoice = []
-var timeStamps = []
+var imageURLS = []
 const INCORRECT = "Try another word!"
 var rawText
 
@@ -40,7 +40,7 @@ var xhttp = new XMLHttpRequest();
       updatePage()
     }
   };
-  xhttp.open("GET", "story.txt", true);
+  xhttp.open("GET", "./story.txt", true);
   xhttp.send();
 }
 
