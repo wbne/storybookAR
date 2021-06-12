@@ -17,9 +17,19 @@
     embedded
     arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;"
   >
-    <a-marker preset="hiro">
-      <a-entity></a-entity>
-    </a-marker>
+    <a-nft
+      type="nft"
+      url="./nft/cover"
+      smooth="true"
+      smoothCount="10"
+      smoothTolerance=".01"
+      smoothThreshold="5"
+    >
+      
+      <a-box color="tomato" depth="2" height="4" width="0.5"></a-box>
+    </a-nft>
+
+    <a-marker preset="hiro"><a-box color="tomato" depth="2" height="4" width="0.5"></a-box></a-marker>
   </a-scene>
   </body>
 </html>
