@@ -9,6 +9,13 @@ html {
   font-family: 'Indie Flower', cursive;
 }
 
+iframe {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
 .story {
   width: 90vw;
   height: 85vh;
@@ -18,13 +25,13 @@ html {
 
 .storyText {
   width: 90vw;
-  height: 85vh;
   position: absolute;
   margin-left: 4vw;
-  margin-top: -20vh;
+  margin-top: 60vh;
   text-align: center;
   color: white;
   font-size: 30px;
+  z-index: 10;
 }
 
 .options {
@@ -47,5 +54,17 @@ html {
   align-items: center;
   width: 90vw;
   margin-left: 4vw;
-  margin-top: -10vh;
+  margin-top: 75vh;
+  z-index: 10;
+}
+
+.errorMessage {
+  width: 90vw;
+  position: absolute;
+  margin-left: 4vw;
+  margin-top: 5vh;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  z-index: 10;
 }
