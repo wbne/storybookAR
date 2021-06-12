@@ -3,7 +3,7 @@ var page = 0
 var book = []
 var answerChoices = []
 var correctChoice = []
-var imageURLS = []
+var timeStamps = []
 const INCORRECT = "Try another word!"
 var rawText
 
@@ -25,7 +25,7 @@ for(i = 0; i < options.length; i++) {
 var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      rawText = this.responseText.split("\r\n")
+      rawText = this.responseText.split("\n")
       for(i = 0; i < rawText.length; i++) {
         if(i % 2 == 0) {
           book.push(rawText[i])
