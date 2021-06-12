@@ -31,7 +31,7 @@ var xhttp = new XMLHttpRequest();
           book.push(rawText[i])
         }
         else {
-          var tempArray = rawText[i].split(", ")
+          var tempArray = rawText[i].replace("\r", "").split(", ")
           var tempChoices = [tempArray[0], tempArray[1], tempArray[2], tempArray[3]]
           correctChoice.push(tempArray[4])
           answerChoices.push(tempChoices)
