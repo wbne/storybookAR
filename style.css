@@ -1,0 +1,51 @@
+h1 {
+  text-align: center;
+  color: white;
+}
+
+html {
+  background-image: url("woodbg.jpg");
+  background-size: contain;
+  font-family: 'Indie Flower', cursive;
+}
+
+.story {
+  width: 90vw;
+  height: 85vh;
+  margin-left: 4vw;
+  background-color: grey;
+}
+
+.storyText {
+  width: 90vw;
+  height: 85vh;
+  position: absolute;
+  margin-left: 4vw;
+  margin-top: -20vh;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.options {
+  width: 20vw;
+  height: 6vh;
+  background-color: white;
+  margin: 20px;
+  text-align: center;
+  border-radius: 50px;
+  cursor: pointer;
+  padding-top: 3vh;
+  font-size: 20px;
+}
+
+.optionContainer {
+  display: flex;
+  position: absolute;
+  height: 3vh;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  margin-left: 4vw;
+  margin-top: -10vh;
+}
