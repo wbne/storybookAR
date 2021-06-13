@@ -2,6 +2,7 @@
 project for alphahacks where you go through an interactive story with the hopes that you learn some english
 
 link: https://wbne.github.io/storybookAR/
+hiro marker to load the story: https://3.bp.blogspot.com/-_rXmUhrNCt8/W0YImGVS1UI/AAAAAAAAECk/5uR-aSWdyx08jxRpRili6_B8D7NiCNHiQCLcBGAs/s320/hiro.png
 
 note: the pages folder contains the original images so you can enjoy them in their full glory
 
