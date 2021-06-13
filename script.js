@@ -5,6 +5,7 @@ var answerChoices = []
 var correctChoice = []
 var timeStamps = []
 const INCORRECT = "Try another word!"
+const pageNames = ["01.png", "02.png","03.png","04.png","05.png","06.png","07.png","08.png","09.png","10.png","11.png","12.png"]
 var rawText
 
 window.addEventListener('load',
@@ -45,11 +46,14 @@ var xhttp = new XMLHttpRequest();
 }
 
 function updatePage() {
+  if(page != 0) {
+    loadImage(pageNames[page])
+  }
   if(page == book.length - 1) {
     for(i = 0; i < options.length; i++) {
       options[i].style.visibility = "hidden"
     }
-    document.getElementsByClassName("storyText")[0].textContent = "The End."
+    document.getElementsByClassName("storyText")[0].textContent = ""
     return
   }
   for(i = 0; i < options.length; i++) {
