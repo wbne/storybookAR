@@ -2,6 +2,7 @@
 project for alphahacks where you go through an interactive story with the hopes that you learn some english
 
 link: https://wbne.github.io/storybookAR/
+hiro marker to load the story: https://3.bp.blogspot.com/-_rXmUhrNCt8/W0YImGVS1UI/AAAAAAAAECk/5uR-aSWdyx08jxRpRili6_B8D7NiCNHiQCLcBGAs/s320/hiro.png
 
 ## Inspiration
 With audiobooks and new technology becoming more and more common, we thought that the next step in story-telling would be through AR. With the visual charm of children's novels combined with the wondrous technology of AR, it would create a near-magical experience for those reading.
