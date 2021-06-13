@@ -3,6 +3,8 @@ project for alphahacks where you go through an interactive story with the hopes 
 
 link: https://wbne.github.io/storybookAR/
 
+note: the pages folder contains the original images so you can enjoy them in their full glory
+
 ## Inspiration
 With audiobooks and new technology becoming more and more common, we thought that the next step in story-telling would be through AR. With the visual charm of children's novels combined with the wondrous technology of AR, it would create a near-magical experience for those reading.
 

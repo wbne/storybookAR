@@ -29,8 +29,8 @@ window.addEventListener('load',
 
 async function loadImage(fileName) {
   const entityHTML = innerFrame.contentDocument.querySelector("img")
-  console.log(fileName)
-  console.log(storageID[fileName])
+  //console.log(fileName)
+  //console.log(storageID[fileName])
   entityHTML.setAttribute("src", FILE_LINK + storageID[fileName])
   innerFrame.contentDocument.querySelector("a-image").setAttribute("src", "a");
   await sleep(5)
